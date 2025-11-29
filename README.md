@@ -31,6 +31,8 @@ You need to add following lines to flatpak manifest:
 ### Using nuget packages
 If you want to use nuget packages it is recommended to use the [Flatpak .NET Generator](https://github.com/flatpak/flatpak-builder-tools/tree/master/dotnet) tool. It generates sources file that can be included in manifest.
 
+An alternative tool is [Nickvision.FlatpakGenerator](https://www.nuget.org/packages/Nickvision.FlatpakGenerator/), a native .NET tool, that will also generate the same sources file. This tool additionally contains some more options compared to the above tool. For example, the ability to specify the .NET and FreeDesktop SDK versions and to generate a sources file for self-contained .NET apps. 
+
 ```json
 "build-commands": [
     "install.sh",
