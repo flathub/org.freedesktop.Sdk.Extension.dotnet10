@@ -11,7 +11,7 @@
   <url type="homepage">https://dotnet.microsoft.com/</url>
   <releases>
     <release version="10.0.2" date="2026-01-13">
-      <description></description>
+      <url type="details">https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.2/10.0.2.md</url>
     </release>
     <release version="10.0.1" date="2025-12-09">
       <url type="details">https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.1/10.0.1.md</url>
