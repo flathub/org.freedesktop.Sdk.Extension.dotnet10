@@ -15,8 +15,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0.102/dotnet-sdk-10.0.102-linux-x64.tar.gz
-        sha256: 1efb5d5a9ee6a8c9dfbf0e70a58272843585187d7f2ee079febe61a22dea3630
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0.103/dotnet-sdk-10.0.103-linux-x64.tar.gz
+        sha256: 84dc1f3150ec2800fa38efdbe4d65a855026d68f745c3fe06f522e87e993af0f
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0/latest.version
@@ -24,8 +24,8 @@ modules:
           url-template: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-linux-x64.tar.gz
       - type: archive
         only-arches: [aarch64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0.102/dotnet-sdk-10.0.102-linux-arm64.tar.gz
-        sha256: c59dc5167558ea9defe7b5639f455d543e0f4d06025f96c02ecd2c8d0ba09019
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0.103/dotnet-sdk-10.0.103-linux-arm64.tar.gz
+        sha256: 76f2dad6ac3765690745b627e79dd1ff13aebf96c2a3e652a9c04cab39a3c6df
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/10.0/latest.version
@@ -39,8 +39,8 @@ modules:
     sources:
       - type: file
         only-arches: [x86_64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/10.0.2/microsoft.aspnetcore.app.runtime.linux-x64.10.0.2.nupkg
-        sha512: 8f9de8fe3acd077fd52e44b437b4085db1ee2cb892f7373a826202336820caf865c9768c40151cbeed6f5ca289ced7760bcd423346aaf63f4253fca07172c82e
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/10.0.3/microsoft.aspnetcore.app.runtime.linux-x64.10.0.3.nupkg
+        sha512: 5d4025c53fa23aff698734f8b0ac70de8c650f25864a1c3f33f7060d6885a7b4bbc4f906bd417c921284b12604900458b2b3f8c73383f81a42a7da1d9b6c0b3b
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
@@ -48,8 +48,8 @@ modules:
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/$version/microsoft.aspnetcore.app.runtime.linux-x64.$version.nupkg
       - type: file
         only-arches: [x86_64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/10.0.2/microsoft.netcore.app.runtime.linux-x64.10.0.2.nupkg
-        sha512: 707e7d4c03f333eb9504bd4e8d31450cc5277978708f35a88d24e07e853a1d5198e0607bf30148c03f6c10107e69b053d1a91b3f8a7e65f50da7824a330551c0
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/10.0.3/microsoft.netcore.app.runtime.linux-x64.10.0.3.nupkg
+        sha512: ff9b987903d5f2cb5fd61c4d5412853efaa29470c3193d308cd35afa001baf68513fee0bb8dc875677ac3ebc1625e4a39714f94e7ed4e512e9961eb03ae292ad
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
@@ -57,8 +57,8 @@ modules:
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/$version/microsoft.netcore.app.runtime.linux-x64.$version.nupkg
       - type: file
         only-arches: [x86_64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-x64/10.0.2/microsoft.netcore.app.crossgen2.linux-x64.10.0.2.nupkg
-        sha512: e75928e325781ab1ae4bf53ef1e63159673f89bdca37e64e749987e2ba07816c3f3112007dece51a4400c0c9adec59dddce8c24f669506e21c60a6ed9e994884
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-x64/10.0.3/microsoft.netcore.app.crossgen2.linux-x64.10.0.3.nupkg
+        sha512: 774d585a8af10b08209118d2ec912893cdf808f2ce9bd66f126f0a4983e7c60b2577f6e23a7ef736b13701d85a77e2063e507bf130ad37cea2053f7b92126cd0
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
@@ -66,8 +66,8 @@ modules:
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-x64/$version/microsoft.netcore.app.crossgen2.linux-x64.$version.nupkg
       - type: file
         only-arches: [aarch64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/10.0.2/microsoft.aspnetcore.app.runtime.linux-arm64.10.0.2.nupkg
-        sha512: 628862f87b7388ebf758fdfd466dc58dbd60b6d81f8e3d8ca64d6816456e620c5ef75063cadf2f7924a6cede2d28b99c4d45ebffe4d4b80d25c7f3dfb4788f27
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/10.0.3/microsoft.aspnetcore.app.runtime.linux-arm64.10.0.3.nupkg
+        sha512: 00bbe88f652bf7682e88780ebab689f0d3a4c48001a33f0f3c7482a4830cb3163c26aa385c26b6a8ee4035db4a82cc01712fb09b2356535d505742a65c85e4cf
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
@@ -75,8 +75,8 @@ modules:
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/$version/microsoft.aspnetcore.app.runtime.linux-arm64.$version.nupkg
       - type: file
         only-arches: [aarch64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/10.0.2/microsoft.netcore.app.runtime.linux-arm64.10.0.2.nupkg
-        sha512: f853e31f414ea94ef9aac4250320da18a184c059b09d5b4d13442dba0a0aa8cc0fdeb2585a77c01360c0f3856e69e28f521d2e8134627b3d4a57184ff6528cf5
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/10.0.3/microsoft.netcore.app.runtime.linux-arm64.10.0.3.nupkg
+        sha512: de3a9896270df83170ed8a401dadb5a206dd0b381e29b84934e7a06611707cc841f9c855a3df840d804f90c8dbd1d4efa5a362cc13347efc2760e9be2cad89d7
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
@@ -84,16 +84,16 @@ modules:
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/$version/microsoft.netcore.app.runtime.linux-arm64.$version.nupkg
       - type: file
         only-arches: [aarch64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-arm64/10.0.2/microsoft.netcore.app.crossgen2.linux-arm64.10.0.2.nupkg
-        sha512: 0f9d7d019134002dc0882b5724ec05522975d3fd1d9bfba1ca48237bc7e6fad59911fb4678ec2a7b2bc6fc5a93d93f94248b49d97d9a83299d1979ac17db30f4
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-arm64/10.0.3/microsoft.netcore.app.crossgen2.linux-arm64.10.0.3.nupkg
+        sha512: 84106b93c8f0f0f37b3ab5b41dea4368f49552254b54acb0f90c5f7d834232a3ea423f454ecc6c20caaf677097207fd3f58533ba54affdce05c781c33117923e
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
           version-pattern: ^([\d\.a-z-]+)$
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-arm64/$version/microsoft.netcore.app.crossgen2.linux-arm64.$version.nupkg
       - type: file
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.net.illink.tasks/10.0.2/microsoft.net.illink.tasks.10.0.2.nupkg
-        sha512: 43565843ed8810371ce8e8760bb55e85f98c5146f05a57b84a65557dbe68ecc8cf3df8fb9ecdace4e62e3e9700ba990296eb88128e2a1e0c1930308020a57193
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.net.illink.tasks/10.0.3/microsoft.net.illink.tasks.10.0.3.nupkg
+        sha512: 67f0ac6badc2d48ad157d250d38048291652bb0762ab099aa76837f6906f5e87ffa5b2dc1877a1c66bc725a33452a3865e3665a3536910446aa2c8013786f4d1
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
