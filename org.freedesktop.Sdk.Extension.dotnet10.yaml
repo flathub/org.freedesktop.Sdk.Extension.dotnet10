@@ -84,8 +84,8 @@ modules:
           url-template: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/$version/microsoft.netcore.app.runtime.linux-arm64.$version.nupkg
       - type: file
         only-arches: [aarch64]
-        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-arm64/10.0.5/microsoft.netcore.app.crossgen2.linux-arm64.10.0.5.nupkg
-        sha512: a548a4a646c999339b421e6fec2ac81ac869da45bea98af15150cc2f9a62ad32cf81adcb23c3c5a7f206680a6f336bcef670a3e105f02c2126dd60e2fda5cd62
+        url: https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-arm64/10.0.6/microsoft.netcore.app.crossgen2.linux-arm64.10.0.6.nupkg
+        sha512: 5e1f1fb54d46e399a1e2de79c8817e8a7c87ad01576df7d867f87442f4a35a1b364c8c3e58df79c09fb883c9aa52f46ef5fbaf075ecf5cd1797bc50f75ebedaa
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/10.0/latest.version
